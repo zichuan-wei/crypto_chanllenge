@@ -37,6 +37,7 @@ def fixedXOR(s1, s2):
 		b3[i] = b1[i] ^ b2[i]
 	return b3
 
+'''
 if "__main__":
 	s1 = sys.argv[1]
 	s2 = sys.argv[2]
@@ -44,3 +45,4 @@ if "__main__":
 	print(base64.b64encode(b))
 	print(base64.b16encode(b))
 	print(int.from_bytes(b, byteorder='big'))
+'''
